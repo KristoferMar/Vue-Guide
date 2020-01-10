@@ -27,6 +27,8 @@ v-model = Setup <b>twoway databinding</b> like v-model="name". this means that w
 ### Vue information
 Vue 'components' start with new Vue({ dataproperties }) and consists of different data properties which include functions mand methods inside them. <br> <br>
 
+Properties:
+
 - el is the dataproperty which binds vue template to our html code. if we want to execute js code on a div with id="app" el will be = '#app'. <br>
 - Data is a dataproperty but is NOT reactive, becuase the data property does not include methods. <br>
 - The Methods property is used to create methods to interact with data in the data property. Method properties are executed every time the dom is updated. <br>
