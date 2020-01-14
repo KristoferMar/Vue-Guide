@@ -58,4 +58,12 @@ All lifecycle hooks are registered directly in the root of the vue constroctor a
 
 - destroyed: function() --> When component is destroyed (good for cleanup) <br>
 
+### Parsing of data 
+
+Between parrent and child component
+- You can prase data thorugh props and make use of events to handle the changes of the props which where made. 
+- You can prase props and handle changes in the same parrent component which you parsed with. 
+
+Between sibling component
+
 
