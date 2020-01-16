@@ -66,4 +66,7 @@ Between parrent and child component
 
 Between sibling component
 
+1. Event bus : Central part which holds information like angular services. An example of this can be found in main.js in the cli project and in userDetails.vue and UserEdit.vue. 
+
+2. Parent / Chidld chains with custom events and props like in REACT.
 
