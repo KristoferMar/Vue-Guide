@@ -70,3 +70,5 @@ Between sibling component
 
 2. Parent / Chidld chains with custom events and props like in REACT.
 
+#### Parse html data via slots
+We can reserve and parse html code via sloths between components.
