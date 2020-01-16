@@ -72,3 +72,5 @@ Between sibling component
 
 #### Parse html data via slots
 We can reserve and parse html code via sloths between components.
+
+- You can also create dynamic component which parses data. This can be seen in the advanced project in the app.vue file.
