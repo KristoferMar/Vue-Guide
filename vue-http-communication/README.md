@@ -12,7 +12,7 @@ npm install --save vue-resource
 
 ## Resources
 
-They are only an alternative to normal HTTP request. They are just good to know and use but they are just an alternative to the normal way for working with HTTP requests.  
+They are only an alternative to normal HTTP request. They are just good to know and use but they are just an alternative to the normal way for working with HTTP requests. 
 
 ## Project setup
 ```
