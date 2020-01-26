@@ -16,7 +16,7 @@ const mutations = {
 };
 
 const actions = {
-    buyStock: ({ commit }, order) => {
+    buyStock: ({commit}, order) => {
         commit('BUY_STOCK', order);
     },
     initStocks: ({commit}) => {
@@ -35,7 +35,7 @@ const getters = {
 
 export default {
     state,
-    mutations, 
+    mutations,
     actions,
-    getters,
-}
+    getters
+};

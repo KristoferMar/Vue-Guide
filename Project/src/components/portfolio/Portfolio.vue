@@ -5,17 +5,17 @@
 </template>
 
 <script>
-import Stock from './Stock.vue'
-import { mapGetters } from 'vuex';
+    import {mapGetters} from 'vuex';
+    import Stock from './Stock.vue';
 
-export default {
-    computed: {
-        ...mapGetters({
-            stocks: 'stockPortolio',
-        })
-    },
-    components: {
-        appStock: Stock,
+    export default {
+        computed: {
+            ...mapGetters({
+                stocks: 'stockPortfolio'
+            })
+        },
+        components: {
+            appStock: Stock
+        }
     }
-}
 </script>
