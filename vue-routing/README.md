@@ -14,6 +14,11 @@ npm install --save vue-router
 
 - :id is a flexible element inside our url, this is how we create dynamic urls.
 
+## Examples 
+
+Routing setup <br>
+https://github.com/KristoferMar/Vue-Guide/blob/master/vue-routing/src/routes.js
+
 ## Project setup
 ```
 yarn install
