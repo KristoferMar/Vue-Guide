@@ -79,4 +79,4 @@ We can reserve and parse html code via sloths between components.
 
 - You are able to add and make use of special plugins by calling "vue add" on the special plugins which start with "vue-cli-plugin" and then a plugin name. Besides that you can always also use the npm install and install plugins this way but "vue add" provides you with much more logic. 
 
-- You can make use of environment variables by creating a new file called ".env" in the src folder and then create variables in that file like VUE_APP_URL=www.webey.dk
+- You can make use of environment variables by creating a new file called ".env" in the src folder and then create variables in that file like VUE_APP_URL=www.webey.dk. You can then create a .env.development file and put the url in both of them, and you can then toggle between production and development. You are ofc also able to create .env.production
