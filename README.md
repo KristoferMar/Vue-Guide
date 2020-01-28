@@ -74,3 +74,7 @@ Between sibling component
 We can reserve and parse html code via sloths between components.
 
 - You can also create dynamic component which parses data. This can be seen in the advanced project in the app.vue file.
+
+## Good to know
+
+you are able to add and make use of special plugins by calling "vue add" on the special plugins which start with "vue-cli-plugin" and then a plugin name. Besides that you can always also use the npm install and install plugins this way but "vue add" provides you with much more logic. 
