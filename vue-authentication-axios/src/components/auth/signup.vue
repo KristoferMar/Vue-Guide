@@ -69,6 +69,10 @@
 </template>
 
 <script>
+// import axios from 'axios';
+// This is our private configured instance. (works like global with customization)
+import axios from '../../axios-auth'
+
   export default {
     data () {
       return {
@@ -103,6 +107,7 @@
           terms: this.terms
         }
         console.log(formData)
+        this.$store.dispatch('signup', formData)
       }
     }
   }

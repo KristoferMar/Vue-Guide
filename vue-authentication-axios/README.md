@@ -1,5 +1,16 @@
 # vue-update
 
+### Download
+
+You install axios to your project with the following command:
+<i>npm install --save axios</i>
+
+### Information 
+
+The official axios github page can be found down below. There you can read much more about all it's features and implementation. 
+
+<i> https://github.com/axios/axios </i>
+
 > Vue Auth & more
 
 ## Build Setup
