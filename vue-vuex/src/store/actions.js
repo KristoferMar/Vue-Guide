@@ -1,3 +1,3 @@
-export const updateValue = ({commit}, payload) => {
-    commit('updateValue', payload);
+export const updateValue = ({ commit }, payload) => {
+  commit('updateValue', payload);
 };

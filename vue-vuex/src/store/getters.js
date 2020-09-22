@@ -1,3 +1,3 @@
-export const value = state => {
-            return state.value;
-        }
+export const value = (state) => {
+  return state.value;
+};
