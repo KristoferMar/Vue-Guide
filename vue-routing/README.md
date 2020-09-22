@@ -1,7 +1,6 @@
 <h1> vue-routing </h1>
 
-Install vue router with the following command:
-
+Install vue router with the following command:<br>
 npm install --save vue-router
 
 <h2> Information </h2>
@@ -14,9 +13,9 @@ npm install --save vue-router
 
 <h2> Explanation </h2>
 
-Routing is setup and handled in the "routes.js" and "main.js" files. Specially the router.js file keeps track of your routes and strucuter. In there you will also find two constants which are created to implement "lazy loading". <br><br>
+Routing is setup and handled in the "routes.js" and "main.js" files. Specially the router.js file keeps track of your routes and strucuter. In there you will also find two constants which are created to implement "lazy loading". <br>
 
-The best way to learn about vue routing is by analyzing the code and play around with this simple setup: <br><br>
+The best way to learn about vue routing is by analyzing the code and play around with this simple setup: <br>
 
 Routing setup <br>
 https://github.com/KristoferMar/Vue-Guide/blob/master/vue-routing/src/routes.js
