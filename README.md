@@ -1,8 +1,19 @@
-# Vue-Guide
-Vue project with reusable components and Modules.
+<h1> Vue-Guide </h1>
+This project takes you through the basics of Vue and it also provides you with reusable components and Modules. <br>
 
-### Vue Syntax 
+<h2>Get started</h2>
 
+The vue cli can be installed with the floowing command <br>
+<i>npm install -g @vue/cli</i>
+or<br>
+<i>yarn global add @vue/cli</i>
+
+Using the vue cli we create our project with the following command: <br>
+<i>vue create projectname</i> <br>
+
+
+<br>
+<h2> Vue Syntax </h2>
 {{ someData }} = How we load and display variables or function returns in the html. We bind code this way <br>
 {{ counter * 2 > 10 ? "greater than 10" : 'Smaller than 10 }} = You are able to write javascript in template code like this <br>
 v-bind = Enables us to load dynamic links like google and such into the html <br>
