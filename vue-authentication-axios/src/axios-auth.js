@@ -4,6 +4,6 @@ const instance = axios.create({
     baseURL: 'https://identitytoolkit.googleapis.com/v1'
 })
 
-// instance.defaults.headers.common['SOMETHING'] = 'something'
+instance.defaults.headers.common['Access-Control-Allow-Origin'] = '*';
 
 export default instance;

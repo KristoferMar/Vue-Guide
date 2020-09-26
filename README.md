@@ -11,6 +11,17 @@ or<br>
 Using the vue cli we create our project with the following command: <br>
 <i>vue create projectname</i> <br>
 
+<h2>Vue core information</h2>
+
+Vue in it's core consits of multipe parts but the fundementals are. 
+- Template: View
+- Script: Vue logic
+- Style: View Design
+
+<br>
+<h3>Computed Properties</h3>
+A computed property is used to declaratively describe a value that depends on other values. When you data-bind a computed property inside the template, Vue knows when to update the DOM when any of the values depended upon by the computed property has changed. This can be very powerful and makes your code more declarative, data-driven and thus easier to maintain.<br>
+
 
 <br>
 <h2> Vue Syntax </h2>

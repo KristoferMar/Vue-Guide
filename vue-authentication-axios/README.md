@@ -1,4 +1,12 @@
-# vue-update
+<h1> vue-update </h1>
+
+<h2>Get started</h2>
+
+Install NM with the following command <br>
+<i>npm i</i> <br> <br>
+
+Startup project <br>
+<i>yarn dev</i>
 
 ### Download
 
