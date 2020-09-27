@@ -22,7 +22,6 @@ Vue in it's core consits of multipe parts but the fundementals are.
 <h3>Computed Properties</h3>
 A computed property is used to declaratively describe a value that depends on other values. When you data-bind a computed property inside the template, Vue knows when to update the DOM when any of the values depended upon by the computed property has changed. This can be very powerful and makes your code more declarative, data-driven and thus easier to maintain.<br>
 
-
 <br>
 <h2> Vue Syntax </h2>
 {{ someData }} = How we load and display variables or function returns in the html. We bind code this way <br>
