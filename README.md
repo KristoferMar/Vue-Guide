@@ -41,8 +41,11 @@ v-model = Setup <b>twoway databinding</b> like v-model="name". this means that w
 - v-else lets you bind an else on the if statement. <br>
 - v-else-if lets you bind elseIf statements on your if statement. <br>
 - v-show="show" allows us to just hide dom elements instead of detaching elements with if statement. <br>
+<h3>forloop v-for</h3>
 - v-for="ingredient in ingredients" allows us to loop through an array and pull out the content for use. In this case ingredients is an array of strings stored in the dataproperty in vue. We are able to get index of all elements by just calling {{ i }}. We are also able o call v-for="" on a '<template which will render all content in template multiple times. You can also loop through properties of objects by looping inside a loop. The second loop would look like v-for="value iningredient".  <br>
 - v-for="n in 10" will loop through the range of integers and list all numbers with {{ n }}. this is how you can loop through numbers. <br>
+Example:<br>
+https://github.com/KristoferMar/Vue-Guide/blob/master/vue-basics/src/components/ForLoop.vue <br>
 - You can add elements to an loop like e.g <button @click="ingredients.push('spices')" but it's a good idea to add :key="ingredient" in the v-for element to make sure new added elements don't overwrite old once. <br>
 
 ### Vue information
