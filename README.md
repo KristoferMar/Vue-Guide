@@ -1,8 +1,8 @@
 <h1> Vue-Guide </h1>
 This project takes you through the basics of Vue and it also provides you with reusable components and Modules. <br>
 
+<br>
 <h2>Get started</h2>
-
 The vue cli can be installed with the floowing command <br>
 <i>npm install -g @vue/cli</i>
 or<br>
@@ -93,6 +93,12 @@ Between sibling component
 1. Event bus : Central part which holds information like angular services. An example of this can be found in main.js in the cli project and in userDetails.vue and UserEdit.vue. 
 
 2. Parent / Chidld chains with custom events and props like in REACT.
+
+<h2>Vue Router</h2>
+Vue Router is a the default tool of use in terms of how we handle routing in Vue.js. <br>
+
+Vue router section:<br>
+<i></i>
 
 #### Parse html data via slots
 We can reserve and parse html code via sloths between components.
