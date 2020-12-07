@@ -22,3 +22,8 @@ yarn lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+
+<h2>Querry parameter</h2>
+
+https://vueschool.io/lessons/vue-router-query-parameters
