@@ -98,7 +98,7 @@ Between sibling component
 Vue Router is a the default tool of use in terms of how we handle routing in Vue.js. <br>
 
 Vue router section:<br>
-<i>https://github.com/KristoferMar/Vue-Guide/tree/master/Vue%20Router</i>
+<i>https://github.com/KristoferMar/Vue-Guide/tree/master/Vue_Router</i>
 
 #### Parse html data via slots
 We can reserve and parse html code via sloths between components.
