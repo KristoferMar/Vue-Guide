@@ -6,6 +6,7 @@
             :alt="experience.name"/>
             <p>{{ experience.description }}</p>
         </div>
+        <h1>{{experience.slug}}</h1>
     </section>
 </template>
 
