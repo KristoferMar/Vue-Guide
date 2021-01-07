@@ -23,7 +23,7 @@ Vue in it's core consits of multipe parts but the fundementals are.
 A computed property is used to declaratively describe a value that depends on other values. When you data-bind a computed property inside the template, Vue knows when to update the DOM when any of the values depended upon by the computed property has changed. This can be very powerful and makes your code more declarative, data-driven and thus easier to maintain.<br>
 
 <br>
-<h2> Vue Syntax </h2>
+<h2> Vue functionalities </h2>
 {{ someData }} = How we load and display variables or function returns in the html. We bind code this way <br>
 {{ counter * 2 > 10 ? "greater than 10" : 'Smaller than 10 }} = You are able to write javascript in template code like this <br>
 v-bind = Enables us to load dynamic links like google and such into the html <br>
@@ -32,9 +32,12 @@ v-html = allows us to acctually render html code and not escape it <br>
 v-on = listen to something to receive something from an event. We use this on buttons. We can use it in multiple ways like v-on:click="something" or v-on:mousemove="someVariable" <br>
 v-model = Setup <b>twoway databinding</b> like v-model="name". this means that whenever the name changes it changes dynamically in the html code. <br>
 @click = Is a way to execute logic without having to create a function in the Methods dataproperty. Example could be @click="attachRed =  !attachRed" where attachRed is simply a data variable. <br> 
+<h4>Dynamic styling</h4>
+Vue enables you to create dynamic styling with the following elements: <br>
 :class = Is a way to set the class dynamically. We are able to add css classes to e.g a div. <br>
-<h4></h4>
 :style = Is a way to create dynamic styling with css elements inside the html. <br>
+Example: <br>
+https://github.com/KristoferMar/Vue-Guide/blob/master/vue-basics/src/components/Styling.vue <br>
 
 #### Conditionals & Lists
 
