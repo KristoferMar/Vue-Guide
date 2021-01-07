@@ -33,6 +33,7 @@ v-on = listen to something to receive something from an event. We use this on bu
 v-model = Setup <b>twoway databinding</b> like v-model="name". this means that whenever the name changes it changes dynamically in the html code. <br>
 @click = Is a way to execute logic without having to create a function in the Methods dataproperty. Example could be @click="attachRed =  !attachRed" where attachRed is simply a data variable. <br> 
 :class = Is a way to set the class dynamically. We are able to add css classes to e.g a div. <br>
+<h4></h4>
 :style = Is a way to create dynamic styling with css elements inside the html. <br>
 
 #### Conditionals & Lists

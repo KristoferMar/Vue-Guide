@@ -6,18 +6,22 @@
     <hr>
 
     <ForLoop />
+    <hr>
+    <Styling />
   </div>
 </template>
 
 <script>
 import HelloWorld from "./components/HelloWorld.vue";
 import ForLoop from "./components/ForLoop.vue";
+import Styling from './components/Styling.vue'
 
 export default {
   name: "App",
   components: {
     HelloWorld,
     ForLoop,
+    Styling
   },
 };
 </script>
