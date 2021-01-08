@@ -67,26 +67,26 @@ events are well used in vue and they have some default implementation posibiliti
 
 We aso have key modifiers they looke like v-on:keyup.enter.space="something", which will trigger if you press space or enter <br>
 
-### Vue Lifecycle hooks
+<h3> Vue Lifecycle hooks </h3>
 All lifecycle hooks are registered directly in the root of the vue constroctor and not inside the method property. 
 
 - beforeCreate: function() --> Code is executed before everything else. <br>
 
-- created: function() --> Code is executed after the component has finished it's creation <br> 
+- created: function() --> Code is executed after the component has finished it's creation <br>
 
-- beforeMount: function() --> Executed after it's created but before it's mounted to the DOM <br> 
+- beforeMount: function() --> Executed after it's created but before it's mounted to the DOM <br>
 
 - mounted: function() --> Created, mounted and visible in the browser <br>
 
-- beforeUpdate: function() --> Executed on data change and before the change is finished and dispalyer <br> 
+- beforeUpdate: function() --> Executed on data change and before the change is finished and dispalyer <br>
 
 - updated: function() --> Executed right after the DOM has updated <br>
 
-- beforeDestroy: function() --> Executed before an instance is destroyed / removed <br> 
+- beforeDestroy: function() --> Executed before an instance is destroyed / removed <br>
 
-- destroyed: function() --> When component is destroyed (good for cleanup) <br>
+- destroyed: function() --> When component is destroyed (good for cleanup) <br> 
 
-### Parsing of data 
+<h3> Parsing of data </h3>
 
 Between parrent and child component
 - You can prase data thorugh props and make use of events to handle the changes of the props which where made. 

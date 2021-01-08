@@ -8,6 +8,8 @@
     <ForLoop />
     <hr>
     <Styling />
+    <hr>
+    <ComponentWithProps :name="'Property variable'" />
   </div>
 </template>
 
@@ -16,12 +18,15 @@ import HelloWorld from "./components/HelloWorld.vue";
 import ForLoop from "./components/ForLoop.vue";
 import Styling from './components/Styling.vue'
 
+import ComponentWithProps from './reusableComponents/Component.vue'
+
 export default {
   name: "App",
   components: {
     HelloWorld,
     ForLoop,
-    Styling
+    Styling,
+    ComponentWithProps,
   },
 };
 </script>
