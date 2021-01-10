@@ -52,6 +52,7 @@ Example:<br>
 https://github.com/KristoferMar/Vue-Guide/blob/master/vue-basics/src/components/ForLoop.vue <br><br>
 - You can add elements to an loop like e.g <button @click="ingredients.push('spices')" but it's a good idea to add :key="ingredient" in the v-for element to make sure new added elements don't overwrite old once. <br>
 
+
 <h2>Vue Components</h2>
 Vue 'components' start with new Vue({ dataproperties }) and consists of different data properties which include functions mand methods inside them. <br> <br>
 
@@ -60,6 +61,7 @@ Properties:
 - "el" - is the dataproperty which binds vue template to our html code. if we want to execute js code on a div with id="app" el will be = '#app'. <br>
 - "Data: {}" - is a dataproperty but is NOT reactive, becuase the data property does not include methods. <br>
 - "components: {}" - this option is used to register a component logically in a view or in another component. <br>
+- "props: {}" - Properties used for assignment in the component when being used. <br>
 - The Methods property is used to create methods to interact with data in the data property. Method properties are executed every time the dom is updated. <br>
 - The Computed property lets us store properties and it is not directly data. Data in the computed property can be used just like you use a property in a data object. You dont have to use if as functions. Computed properties are only executed when needed. Computed properties ALWAYS need to run synchronously. <br>
 - Watch is a data properties which we use to run async functions. We are able to store local variables in the watch properties.  <br>
@@ -67,6 +69,7 @@ Properties:
 events are well used in vue and they have some default implementation posibilities. $event is the reserved variable name for an event. We can trigger event functions directly in the html like v-on:mousemove.stop <br>
 
 We aso have key modifiers they looke like v-on:keyup.enter.space="something", which will trigger if you press space or enter <br>
+
 
 <h3> Vue Lifecycle hooks </h3>
 All lifecycle hooks are registered directly in the root of the vue constroctor and not inside the method property. 
