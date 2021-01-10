@@ -52,7 +52,7 @@ Example:<br>
 https://github.com/KristoferMar/Vue-Guide/blob/master/vue-basics/src/components/ForLoop.vue <br><br>
 - You can add elements to an loop like e.g <button @click="ingredients.push('spices')" but it's a good idea to add :key="ingredient" in the v-for element to make sure new added elements don't overwrite old once. <br>
 
-<h3>Vue Components</h3>
+<h2>Vue Components</h2>
 Vue 'components' start with new Vue({ dataproperties }) and consists of different data properties which include functions mand methods inside them. <br> <br>
 
 Properties:
