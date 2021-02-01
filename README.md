@@ -39,18 +39,18 @@ Vue enables you to create dynamic styling with the following elements: <br>
 Example: <br>
 https://github.com/KristoferMar/Vue-Guide/blob/master/vue-basics/src/components/Styling.vue <br>
 
-#### Conditionals & Lists
+<h4>Conditionals & Lists</h4>
 
-- v-if="show" lets you bind to condition or property in this case 'show'. You can also attach if to a <template which can wrap multiple elements inside. <br>
+- v-if="show" lets you bind to condition or property in this case 'show'. You can also attach if to a <'template which can wrap multiple elements inside. <br>
 - v-else lets you bind an else on the if statement. <br>
 - v-else-if lets you bind elseIf statements on your if statement. <br>
 - v-show="show" allows us to just hide dom elements instead of detaching elements with if statement. <br>
 <h3>for loop v-for</h3>
-- v-for="ingredient in ingredients" allows us to loop through an array and pull out the content for use. In this case ingredients is an array of strings stored in the dataproperty in vue. We are able to get index of all elements by just calling {{ i }}. We are also able o call v-for="" on a '<template which will render all content in template multiple times. You can also loop through properties of objects by looping inside a loop. The second loop would look like v-for="value iningredient".  <br>
+- v-for="ingredient in ingredients" allows us to loop through an array and pull out the content for use. In this case ingredients is an array of strings stored in the dataproperty in vue. We are able to get index of all elements by just calling {{ i }}. We are also able o call v-for="" on a '<'template which will render all content in template multiple times. You can also loop through properties of objects by looping inside a loop. The second loop would look like v-for="value iningredient".  <br>
 - v-for="n in 10" will loop through the range of integers and list all numbers with {{ n }}. this is how you can loop through numbers. <br><br>
 Example:<br>
 https://github.com/KristoferMar/Vue-Guide/blob/master/vue-basics/src/components/ForLoop.vue <br><br>
-- You can add elements to an loop like e.g <button @click="ingredients.push('spices')" but it's a good idea to add :key="ingredient" in the v-for element to make sure new added elements don't overwrite old once. <br>
+- You can add elements to an loop like e.g <'button @click="ingredients.push('spices')" but it's a good idea to add :key="ingredient" in the v-for element to make sure new added elements don't overwrite old once. <br>
 
 
 <h2>Vue Components</h2>
@@ -108,12 +108,12 @@ Vue Router is a the default tool of use in terms of how we handle routing in Vue
 Vue router section:<br>
 <i>https://github.com/KristoferMar/Vue-Guide/tree/master/Vue_Router</i>
 
-#### Parse html data via slots
+<h4> Parse html data via slots </h4>
 We can reserve and parse html code via sloths between components.
 
 - You can also create dynamic component which parses data. This can be seen in the advanced project in the app.vue file.
 
-## Good to know
+<h2> Good to know </h2>
 
 - You are able to add and make use of special plugins by calling "vue add" on the special plugins which start with "vue-cli-plugin" and then a plugin name. Besides that you can always also use the npm install and install plugins this way but "vue add" provides you with much more logic. 
 
