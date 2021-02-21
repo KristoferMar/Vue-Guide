@@ -12,11 +12,16 @@ Install bable extension to be able to make use of the spread operator:
 
 - State makes use of getters to get and display state data. <br>
 
-You can view and tap into your current state the following way: <br>
+You can view and tap into your current state the following ways: <br>
 <pre>
 console.log(this.$store.state);
+</pre> 
+<br>
+<pre>
+console.log(this.$store.getters);
 </pre>
 
+<br>
 <h2> Mutations </h2>
 Mutations change the state from the store, we use them to kind if "dispatch actions".
 
