@@ -24,7 +24,7 @@ Vue in it's core consits of multipe parts but the fundementals are.
 <h3>props</h3>
 Props can be used to create generical components. <br>
 Below is an example of how we can parse props between components. <br>
-<a>https://github.com/KristoferMar/Vue-Guide/blob/master/vue-basics/src/reusableComponents/Component.vue</a><br>
+https://github.com/KristoferMar/Vue-Guide/blob/master/vue-basics/src/reusableComponents/Component.vue<br>
 
 <br>
 <h3>Computed Properties</h3>
