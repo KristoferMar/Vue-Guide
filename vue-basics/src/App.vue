@@ -1,24 +1,26 @@
+<!--  -->
+
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png" />
     <HelloWorld msg="Welcome to Your Vue.js App" />
 
-    <hr>
+    <hr />
 
     <ForLoop />
-    <hr>
+    <hr />
     <Styling />
-    <hr>
-    <ComponentWithProps :name="'Property variable'" />
+    <hr />
+    <ComponentWithProps :name="'MyVariable'" :age="'25'" />
   </div>
 </template>
 
 <script>
 import HelloWorld from "./components/HelloWorld.vue";
 import ForLoop from "./components/ForLoop.vue";
-import Styling from './components/Styling.vue'
+import Styling from "./components/Styling.vue";
 
-import ComponentWithProps from './reusableComponents/Component.vue'
+import ComponentWithProps from "./reusableComponents/Component.vue";
 
 export default {
   name: "App",
