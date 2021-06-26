@@ -109,6 +109,18 @@ Between sibling component
 
 2. Parent / Chidld chains with custom events and props like in REACT.
 
+<br> 
+<h2>Vuex - State management</h2>
+Section includes: <br>
+- State <br>
+- Mutations <br>
+- Actions <br>
+<br>
+Details:<br>
+https://github.com/KristoferMar/Vue-Guide/tree/master/vuex 
+
+
+<br><br>
 <h2>Vue Router</h2>
 Vue Router is a the default tool of use in terms of how we handle routing in Vue.js. <br>
 
