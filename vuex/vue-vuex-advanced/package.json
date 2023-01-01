@@ -13,8 +13,8 @@
   },
   "devDependencies": {
     "@babel/preset-env": "^7.11.5",
-    "@vue/cli-plugin-babel": "^4.1.0",
-    "@vue/cli-service": "^4.1.0",
+    "@vue/cli-plugin-babel": "^5.0.8",
+    "@vue/cli-service": "^5.0.8",
     "babel-preset-stage-2": "^6.24.1",
     "vue-template-compiler": "^2.6.10"
   }
