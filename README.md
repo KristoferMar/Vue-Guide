@@ -109,6 +109,37 @@ Between sibling component
 
 2. Parent / Chidld chains with custom events and props like in REACT.
 
+# Vue3 API's
+
+## nextTick
+Vue's reactivity system batches changes and applies them asynchronously for performance reasons. This means that changes to reactive data are not applied to the DOM immediately. If you try to access or manipulate the DOM immediately after changing reactive data, you might not see the results of those changes because Vue hasn't applied them yet. nextTick allows you to wait for these changes to be completed.
+
+Example
+```
+async function someFunction() {
+  // Change reactive data
+  myData.property = newValue;
+
+  // Wait for Vue to update the DOM
+  await nextTick();
+
+  // Now you can safely work with the updated DOM
+  console.log('DOM updated');
+}
+```
+With callback
+```
+function someFunction() {
+  // Change reactive data
+  myData.property = newValue;
+
+  // Wait for Vue to update the DOM
+  nextTick(() => {
+    // Now you can safely work with the updated DOM
+    console.log('DOM updated');
+  });
+```
+
 <br> 
 <h2>Vuex - State management</h2>
 Section includes: <br>
